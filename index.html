@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container center">
+      <div class="left">
+        <h2 class="left-first-title">Your Result</h2>
+        <div class="circle">
+          <h1 class="circle-num-1">76</h1>
+          <h3 class="circle-num-2">of 100</h3>
+        </div>
+        <h1 class="left-second-title">Great</h1>
+        <ul class="left-text">
+          <li>You scored higher than 65% of</li>
+          <li>the people who have taken</li>
+          <li>these tests.</li>
+        </ul>
+        <ul class="left-text left-text-mobile">
+          <li>You scored higher than 65% of the</li>
+          <li>people who have taken these tests.</li>
+          <li class="end">You scored higher than 65% of the</li>
+          <li class="end">people who have taken these tests.</li>
+        </ul>
+      </div>
+      <div class="right">
+        <h2>Summary</h2>
+        <ul>
+          <li class="box box-1">
+            <div class="box-left">
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt="icon reaction"
+                class="reaction-img"
+              />
+              Reaction
+            </div>
+            <div class="box-right">80<span>/ 100</span></div>
+          </li>
+          <li class="box box-2">
+            <div class="box-left">
+              <img
+                src="./assets/images/icon-memory.svg"
+                alt="icon memory"
+                class="memory img"
+              />
+              Memory
+            </div>
+            <div class="box-right">92<span>/ 100</span></div>
+          </li>
+          <li class="box box-3">
+            <div class="box-left">
+              <img
+                src="./assets/images/icon-verbal.svg"
+                alt="icon verbal"
+                class="verbal img"
+              />
+              Verbal
+            </div>
+            <div class="box-right">61<span>/ 100</span></div>
+          </li>
+          <li class="box box-4">
+            <div class="box-left">
+              <img
+                src="./assets/images/icon-visual.svg"
+                alt="icon visual"
+                class="visual img"
+              />
+              Visual
+            </div>
+            <div class="box-right">72<span>/ 100</span></div>
+          </li>
+        </ul>
+        <button>Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
